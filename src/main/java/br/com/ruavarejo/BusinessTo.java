@@ -1,3 +1,4 @@
+package br.com.ruavarejo;
 
 /**
  * Enum para definição do segmento de Leads

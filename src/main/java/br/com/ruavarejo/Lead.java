@@ -13,6 +13,8 @@ public class Lead {
 
 	private String nome;
 	private String email;
+	private String ip;
+
 	private BusinessTo bTo;
 	
 	

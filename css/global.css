@@ -1,3 +1,10 @@
+@font-face {font-family: "Helvetica"; src: url('/fonts/helvetica_bold.ttf') format('truetype');}
+/*@font-face {font-family: "Helvetica Neue"; src: url('../fonts/HelveticaNeue.ttf') format('truetype');}*/
+
+body{
+	font-family: Helvetica;
+}
+
 input[type="button"], input[type="submit"]{
 	color: #FFF;
     background-color: #0A99D2;
@@ -14,7 +21,7 @@ input[type="text"], input[type="email"]{
 .greenCloseButton{
 	width: 50%;
 	margin-left: 20%;
-	background-color: #4AFF3D;
+	background-color: #6EC178;
 }
 
 .leadSignUp input[type="submit"]{
@@ -28,9 +35,9 @@ input[type="text"], input[type="email"]{
 .economia{
 	width: 49%;
 	margin-top: 1em;
-	color: #000;
-    background-color: #F5F5F5;
-    border-color: #F5F5F5;
+	color: #FFFFFF;
+    background-color: #8d8d8d;
+    border-color: #8d8d8d;
 }
 
 .leadSignUp input[name="name"], input[name="lastName"]{
@@ -119,6 +126,15 @@ input[type="text"], input[type="email"]{
 .post{
 	width: 50%;
 	height: 20em;
+}
+
+
+.media{
+	width: 70%;
+}
+
+.media-heading{
+	color: #0274a6;
 }
 
 @media screen{

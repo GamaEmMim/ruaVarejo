@@ -51,7 +51,7 @@ $(document).ready(function(){
 		}
 
 		$.ajax({
-			url:'http://localhost:8080/cliente',
+			url:'http://api.ruavarejo.com.br/cliente',
 			type:"POST",
 			data:JSON.stringify(parameters),
 			contentType:"application/json; charset=utf-8",

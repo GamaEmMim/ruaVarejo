@@ -31,7 +31,7 @@
 
        <h2><p align="justify">Você também pode nos encontrar nas redes sociais através do nosso  
          <a href="https://www.linkedin.com/company/16219656" target="_blank"> Linkedin </a> e da nossa página do 
-         <a href="http://www.facebook.com/ruavarejo" target="_blank"> Facebook </a> e verifique nossas outros posts...</p></h2>
+         <a href="http://www.facebook.com/ruavarejo" target="_blank"> Facebook </a> e confira nossos outros posts...</p></h2>
          <h6>&nbsp;</h6>
 
       </div>

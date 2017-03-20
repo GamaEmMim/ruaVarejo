@@ -21,7 +21,7 @@
         
 
       <div class="clearfix colelem" id="u12639-32"><!-- content -->
-       <h3><p align="justify">No mês de dezembro de 2016 o presidente Michel Temer anunciou que liberaria o saque de contas inativas do FGTS até dezembro de 2015. Essa medida é parte de um plano do governo para reaquecer a economia através de uma recomposição de renda para os trabalhadores. Essa decisão projeta injetar cerca de R$ 34,5 bilhões na economia e causar um impacto de cerca de 0,5 ponto percentual do PIB de 2017 e foi tomada para que houvesse uma reação a curto prazo no cenário econômico do país.</p></h3>
+       <h3><p align="justify">No mês de dezembro de 2016 o presidente Michel Temer anunciou que liberaria o saque de contas inativas do FGTS até dezembro de 2015. Essa medida é parte de um plano do governo para reaquecer a economia através de uma recomposição de renda para os trabalhadores. A decisão projeta injetar cerca de R$ 34,5 bilhões na economia e causar um impacto de cerca de 0,5 ponto percentual do PIB de 2017 e foi tomada para que houvesse uma reação a curto prazo no cenário econômico do país.</p></h3>
        <h6>&nbsp;</h6>
 
        <h3><p align="justify">Baseado em todas essas expectativas com o saque do FGTS, o mercado do varejo espera um crescimento de vendas nos períodos de saque. Uma das demonstrações de que esse movimente tende a ser forte é o fato de que no dia em que foi liberado o calendário de saques o tema ter se tornado o mais buscado no Google, superando um milhão de buscas.</p></h3>

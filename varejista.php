@@ -9,6 +9,7 @@
     <title><?=WEBSITE_TITLE?>Varejista</title>
     <?php require(__DIR__."/components/import.html") ?>
     <link rel="stylesheet" type="text/css" href="/css/varejista.css">
+    <script src="/js/varejista.js"></script>
   </head>
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>
@@ -24,12 +25,18 @@
           <iframe width="766" height="444" src="https://www.youtube.com/embed/PpmaXDju_7U" frameborder="0" allowfullscreen=""></iframe>
 
           <h2>Assine nossa newsletter e receba informações essenciais para ficar por dentro do mundo do varejo! É gratuito!</h2>
-          <form class="contactForm">
+          <div class="successSignUp" style="display: none;">
+            <h3>Cadastro realizado com sucesso!</h3>
+          </div>
+          <form class="varejistaForm" style="display: inline;">
             <div>
               <input type="text" name="name" id="name" placeholder="nome"/>
               <input type="text" name="lastName" id="lastName" placeholder="sobrenome"/>
             </div>
-            <div class="radioButtonOptions">
+            <div>
+              <input type="text" name="company" id="company" placeholder="empresa">
+            </div>
+            <div class="varejistaFormRadioButton" value="">
               <input type="radio" name="tipoComercio" id="varejo" value="VAREJO">
               <label for="varejo">varejo</label>
               <input type="radio" name="tipoComercio" id="industria" value="INDUSTRIA">
@@ -40,7 +47,7 @@
             <div>
               <input type="email" name="email" value="" id="email" placeholder="email-profissional">
             </div>
-            <input type="submit" class="btn btn-default signUpButton" value="Inscreva-se!">
+            <input type="submit" class="btn btn-default varejistaSend" value="Enviar!">
           </form>
         </div>
         <div class="col-md-2">

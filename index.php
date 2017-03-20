@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?=WEBSITE_TITLE?>Inicio</title>
+    <title><?=WEBSITE_TITLE?>Rua Varejo</title>
     <?php require(__DIR__."/components/import.html") ?>
     <link rel="stylesheet" type="text/css" href="/css/home.css">
   </head>

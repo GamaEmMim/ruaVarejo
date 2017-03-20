@@ -9,6 +9,12 @@ $(document).ready(function(){
 		var target = "#" + $(this).attr("target");
 		$(target).modal('hide');
 	});
+
+	$(".goToDownloads").click(function(e){
+   		e.preventDefault();
+   		window.location = "/ebooks.php";
+	});
+
 	$(".signUpButton,.signUpModal").click(function(event){
 		event.preventDefault();
 		$("#signUpModal").modal('show');

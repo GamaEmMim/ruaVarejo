@@ -16,9 +16,11 @@
     <?php require(__DIR__."/components/page_header.html");?>
 
       <!--Posts e divulgação de ebook-->
-      <div class="col-md-9" style="padding-left: 10%">
+      <div class="col-md-9" style="padding-left: 10%; padding-right: 3%">
 
+        <h6>&nbsp;</h6>
         <h1>QUER SABER TODAS AS DICAS PARA SE TORNAR UM EXPERT EM VAREJO? BAIXE UM DE NOSSOS E-BOOKS!</h1>
+        <h6>&nbsp;</h6>
         <div class="row" style="padding-left: 10%">
           <div class="col-md-5">
             <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook1.png">
@@ -27,6 +29,7 @@
             <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook2.png">
           </div>
         </div>
+        <h6>&nbsp;</h6>
 
         <hr class="divisor">
 

@@ -4,6 +4,53 @@ input[type="button"], input[type="submit"]{
     border-color: #0A99D2;
 }
 
+input[type="text"], input[type="email"]{
+	height: 3em;
+	background-color: #DEDEDE;
+	border: 0em;
+	margin-top: 1em;
+}
+
+.leadSignUp input[type="submit"]{
+    width: 49%;
+	margin-top: 1em;
+	color: #FFF;
+    background-color: #0A99D2;
+    border-color: #0A99D2;
+}
+
+.closeModal{
+	width: 49%;
+	margin-top: 1em;
+	color: #000;
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+}
+
+.leadSignUp input[name="name"], input[name="lastName"]{
+	width: 49%;
+}
+
+.leadSignUp input[name="email"]{
+	width: 100%;
+}
+}
+
+.radioButtonOptions{
+	width: 100%;
+}
+
+.radioButtonOptions label{
+	margin-right: 6em;
+}
+
+.contactForm textarea{
+	width: 100%;
+	margin-top: 1em;
+	background-color: #DEDEDE;
+	height: 8em;
+}
+
 .menuBar{
 	background-color: #F5F5F5;
 	width: 100%;

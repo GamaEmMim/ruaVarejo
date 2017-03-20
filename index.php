@@ -9,6 +9,7 @@
     <title><?=WEBSITE_TITLE?>Inicio</title>
     <?php require(__DIR__."/components/import.html") ?>
     <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <script src="/js/index.js"></script>
   </head>
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>
@@ -28,9 +29,11 @@
 
         <hr class="divisor">
 
+        <?php require(__DIR__."/components/signup_modal.html"); ?>
+
         <!-- POSTS -->
 
-          <div class="container">
+        <div class="container">
 
 
           <?php for ($i = 0; $i < 10; $i++){ ?>
@@ -50,7 +53,7 @@
 
 
 
-          </div>
+        </div>
 
       </div>
 

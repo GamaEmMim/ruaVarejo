@@ -9,6 +9,7 @@
     <title><?=WEBSITE_TITLE?>Varejista</title>
     <?php require(__DIR__."/components/import.html") ?>
     <link rel="stylesheet" type="text/css" href="/css/contato.css">
+    <script src="/js/contato.js"></script>
   </head>
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>

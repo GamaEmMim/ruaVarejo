@@ -1,0 +1,30 @@
+.contactForm input[type="text"], .contactForm input[type="email"]{
+	height: 3em;
+	background-color: #DEDEDE;
+	border: 0em;
+}
+
+#email{
+	width: 100%;
+}
+
+#name{
+	width: 30%;
+}
+
+#lastName{
+	width: 69%;
+}
+
+.radioButtonOptions{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.signUpButton{
+	width: 100%;
+	margin-top: 0.5em;
+	color: #FFF;
+    background-color: #0A99D2;
+    border-color: #0A99D2;
+}

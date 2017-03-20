@@ -1,0 +1,34 @@
+.contactForm input[type="text"], .contactForm input[type="email"]{
+	height: 3em;
+	background-color: #DEDEDE;
+	border: 0em;
+	margin-top: 1em;
+}
+
+.contactForm textarea{
+	width: 100%;
+	margin-top: 1em;
+	background-color: #DEDEDE;
+	height: 8em;
+}
+
+#email{
+	width: 100%;
+}
+
+#name{
+	width: 30%;
+}
+
+#lastName{
+	width: 69%;
+}
+
+#company{
+	width: 100%;
+}
+
+input[type="submit"]{
+    margin-top: 1.5em;
+    width: 100%;
+}

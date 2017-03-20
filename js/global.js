@@ -23,17 +23,48 @@ $(document).ready(function(){
 		parameters.lastName = $("#lastName").val();
 		parameters.tipoComercio = $(".radioButtonOptions").attr("value");
 		parameters.email = $("#email").val();
+		parameters.company = $("#company").val();
+		if (parameters.name == ""){
+			alert("O nome é obrigatório");
+			$("#name").focus();
+			return;
+		}
+		if (parameters.lastName == ""){
+			alert("O sobrenome é obrigatório");
+			$("#lastName").focus();
+			return;
+		}
+		if (parameters.tipoComercio == ""){
+			alert("O tipo de comércio é obrigatório");
+			$("#tipoComercio").focus();
+			return;
+		}
+		if (parameters.email == ""){
+			alert("O email é obrigatório");
+			$("#email").focus();
+			return;
+		}
+		if (parameters.company == ""){
+			alert("A empresa é obrigatória");
+			$("#company").focus();
+			return;
+		}
 
 		$.ajax({
-			url:'http://api.ruavarejo.com.br/cliente',
+			url:'http://localhost:8080/cliente',
 			type:"POST",
 			data:JSON.stringify(parameters),
 			contentType:"application/json; charset=utf-8",
 			dataType:"json",
-			success: function(data){
-				console.log("---");
-				console.log(data);
-				console.log("---");
+			success: function(e){
+				$(".formSent").show();
+				$(".mainModal").hide();
+				$(".modal-content").removeClass("minHeight30em");
+			},
+			error: function(e){
+				$(".formSent").show();
+				$(".mainModal").hide();
+				$(".modal-content").removeClass("minHeight30em");
 			}
 		});
 	});

@@ -16,7 +16,7 @@
     <?php require(__DIR__."/components/page_header.html");?>
 
       <!--Posts e divulgação de ebook-->
-      <div class="col-md-9">
+      <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
         <h1>PESQUISA DE PREÇOS NO VAREJO – COMO FAZER E O QUE NÃO FAZER</h1>
         <h2 style="color:#808080">Como as novas tecnologias de coleta de dados podem te ajudar com essa árdua tarefa</h2>
         

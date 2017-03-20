@@ -16,11 +16,11 @@
     <?php require(__DIR__."/components/page_header.html");?>
 
       <!--Posts e divulgação de ebook-->
-      <div class="col-md-9">
+      <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
         <h1>O QUE SE ESPERA DO VAREJO EM 2017</h1>
         
 
-        <div class="clearfix colelem" id="u12639-32"><!-- content -->
+      <div class="clearfix colelem" id="u12639-32"><!-- content -->
        <h3><p align="justify">Se tem algo que está em evidência no mundo, é a mudança do consumidor. O público tem amadurecido seu modelo de compras a cada dia, tornando-se mais exigentes, procurando algo que vá além do lugar-comum. Sendo assim, o mundo do varejo também enfrenta uma nova realidade, de compreender esse novo target para que possa atendê-lo de acordo com seus anseios.</p></h3>
        <h6>&nbsp;</h6>
 

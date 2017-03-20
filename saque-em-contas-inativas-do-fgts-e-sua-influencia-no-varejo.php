@@ -16,7 +16,7 @@
     <?php require(__DIR__."/components/page_header.html");?>
 
       <!--Posts e divulgação de ebook-->
-      <div class="col-md-9">
+      <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
         <h1>SAQUE EM CONTAS INATIVAS DO FGTS E SUA INFLUÊNCIA NO VAREJO</h1>
         
 

@@ -16,18 +16,20 @@
     <?php require(__DIR__."/components/page_header.html");?>
 
       <!--Posts e divulgação de ebook-->
-      <div class="col-md-9">
+      <div class="col-md-9" style="padding-left: 10%">
+
         <h1>QUER SABER TODAS AS DICAS PARA SE TORNAR UM EXPERT EM VAREJO? BAIXE UM DE NOSSOS E-BOOKS!</h1>
-        <div class="row">
+        <div class="row" style="padding-left: 10%">
           <div class="col-md-5">
-            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/blank_ebook.jpg">
+            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook1.png">
           </div>
           <div class="col-md-5">
-            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/blank_ebook.jpg">
+            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook2.png">
           </div>
         </div>
 
         <hr class="divisor">
+
 
         <?php require(__DIR__."/components/signup_modal.html"); ?>
 
@@ -37,7 +39,7 @@
 
             <div class="media" style="width: 70%;">
               <div class="media-left">
-                <img class="media-object" src="/images/64x64.jpg" width="150px">
+                <img class="media-object" src="/images/pesquisa-de-preco.png" width="150px" height="150px">
               </div>
               <div class="media-body">
                 <h3 class="media-heading" style="color:#0274a6"><b>
@@ -50,7 +52,7 @@
 
             <div class="media" style="width: 70%;">
               <div class="media-left">
-                <img class="media-object" src="/images/64x64.jpg" width="150px">
+                <img class="media-object" src="/images/fgts.jpg" width="150px" height="150px">
               </div>
               <div class="media-body">
                 <h3 class="media-heading" style="color:#0274a6"><b>
@@ -64,7 +66,7 @@
 
             <div class="media" style="width: 70%;">
               <div class="media-left">
-                <img class="media-object" src="/images/64x64.jpg" width="150px">
+                <img class="media-object" src="/images/chave-do-sucesso.jpg" width="150px" height="150px">
               </div>
               <div class="media-body">
                 <h3 class="media-heading" style="color:#0274a6"><b>
@@ -77,7 +79,7 @@
 
             <div class="media" style="width: 70%;">
               <div class="media-left">
-                <img class="media-object" src="/images/64x64.jpg" width="150px">
+                <img class="media-object" src="/images/varejo-em-2017.jpg" width="150px", height="150px">
               </div>
               <div class="media-body">
                 <h3 class="media-heading" style="color:#0274a6"><b>

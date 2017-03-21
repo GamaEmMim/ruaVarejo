@@ -24,7 +24,7 @@
       <!--Posts e divulgação de ebook-->
 
 
-      <div class="col-md-9" style="padding-left: 10%; padding-right: 3%">
+      <div class="col-md-9" style="padding-left: 18%; padding-right: 3%">
 
         <h6>&nbsp;</h6>
         <h1>Obrigado por fazer parte da rua varejo, queremos te oferecer uns presentes e esperamos que você goste!</h1>

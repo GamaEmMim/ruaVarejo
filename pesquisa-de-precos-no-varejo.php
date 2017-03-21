@@ -46,8 +46,9 @@
        <a href="https://www.linkedin.com/company/16219656" target="_blank"> Linkedin </a>,  
        <a href="http://www.facebook.com/ruavarejo" target="_blank"> Facebook </a> e verifique nossos outros posts...</p></h2>
        <h6>&nbsp;</h6>
-    </span>
 
+       </div>
+       </span>
        
        
       <hr class="divisor">

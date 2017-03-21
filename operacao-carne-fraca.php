@@ -17,6 +17,7 @@
 
       <!--Posts e divulgação de ebook-->
       <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
+       <span class="post">
         <h1>OPERAÇÃO CARNE FRACA</h1>
         <h2 style="color:#808080">Saiba orientar o consumidor no seu estabelecimento e o que quais as precauções mais recomendadas</h2>
         
@@ -32,11 +33,11 @@
         <h6>&nbsp;</h6>
 
         <h3><p align="justify">Seguem alguns pontos de atenção e dicas para ultrapassar esse furacão:</p></h3>
-        <h3><p align="justify">A Polícia Federal não explicitou quais infrações foram cometidas por quais empresas, o que facilita uma “generalização” do problema, então meu conselho para você é utilizar a máxima do direito penal “Ninguém é culpado, antes que se prove ao contrário”;</h3>
+        <h3><p align="justify">A Polícia Federal não explicitou quais infrações foram cometidas por quais empresas, o que facilita uma “generalização” do problema, então meu conselho para você é utilizar a máxima do direito penal “Ninguém é culpado, antes que se prove ao contrário”;</p></h3>
 
-        <h3><p align="justify">A carne se encontra com a data de validade vencida não tem uma aparência muito diferente da carne boa, caso mantida sob refrigeração adequada. O que muda é o gosto, que logo denuncia o produto ruim. Neste caso, a orientação é verificar o seu estoque e suas prateleiras para descartar produtos que já não tenham a aparência boa e caso algum consumidor procure o seu estabelecimento para reclamações procure o fabricante do produto. VERIFIQUE A DATA DE VALIDADE – O VAREJO NÃO PODE VENDER PRODUTOS COM A DATA DE VALIDADE VENCIDA.</p></h3>
-        <h3><p align="justify">Você pode se adiantar e ligar na Vigilância Sanitária pelo 1746 e solicitar uma inspeção e o recolhimento de alguma peça para que seja feita a análise da mercadoria. Você pode inclusive utilizar essa ação proativa para fazer um marketing do seu estabelecimento “fiscalizado pela vigilância sanitária”.</p></h3>
+        <h3><p align="justify">A carne se encontra com a data de validade vencida não tem uma aparência muito diferente da carne boa, caso mantida sob refrigeração adequada. O que muda é o gosto, que logo denuncia o produto ruim. Neste caso, a orientação é verificar o seu estoque e suas prateleiras para descartar produtos que já não tenham a aparência boa e caso algum consumidor procure o seu estabelecimento para reclamações procure o fabricante do produto. VERIFIQUE A DATA DE VALIDADE – O VAREJO NÃO PODE VENDER PRODUTOS COM A DATA DE VALIDADE VENCIDA.</p>   </h3>
 
+        <h3><p align="justify">Você pode se adiantar e ligar na Vigilância Sanitária pelo 1746 e solicitar uma inspeção e o recolhimento de alguma peça para que seja feita a análise da mercadoria. Você pode inclusive utilizar essa ação proativa para fazer um marketing do seu estabelecimento “fiscalizado pela vigilância sanitária”.</p></h3><
         <h3><p align="justify">Ácido ascórbico: muito se falou dele como maneira de “maquiar” o aspecto da carne que já se encontra vencida, em conjunto com as declarações da polícia federal, muitas pessoas entenderam que o ácido ascórbico é uma substância potencialmente cancerígena. De acordo com a OMS, ela pode contribuir com distúrbios gastrointestinais, cálculos renais e outros problemas de saúde se for consumida em excesso e por longos períodos de tempo, mas não há evidências de relação direta com câncer. Então fique tranquilo e tranquilize os seus clientes.</p></h3>
 
         <h3><p align="justify">Importante ressaltar aqui que as irregularidades encontradas pela Policia Federal devem ser punidas, mas não representam a totalidade dos produtos feitos no Brasil e vendidos em supermercados e restaurantes.</p></h3>
@@ -51,6 +52,7 @@
        <a href="http://www.facebook.com/ruavarejo" target="_blank"> Facebook </a> e verifique nossas outros posts...</p></h2>
        <h6>&nbsp;</h6>
        
+       </span>
       </div>
 
         <hr class="divisor">

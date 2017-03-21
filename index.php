@@ -41,6 +41,22 @@
 
         <div class="container">
 
+          <div class="media">
+            <div class="media-left">
+              <a href="/omni-channel-o-que-e.php">
+                <img class="media-object" src="/images/ebook5.png" width="150px" height="150px">
+              </a>              
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">
+                <a href="/omni-channel-o-que-e.php"><b>Omni Channel - o que é ?</b></a>
+              </h3>
+              <p align="justify">Omne, do latim, representa tudo ou todo. Channel quer dizer canal. Omnichannel, então, significa todos os canais. É a busca pela integração da experiência do consumidor, não importando onde ele está ou como interage com os colaboradores da empresa: lojas virtuais, físicas, por telefone ou chat.</p>
+             <a href="/omni-channel-o-que-e.php">CONTINUE LENDO...</a>
+            </div>
+          </div>
+
+
             <div class="media">
               <div class="media-left">
                 <a href="/operacao-carne-fraca.php">

@@ -30,7 +30,7 @@
         </div>
 
         <div style="width: 50%"> 
-          <p>Email:<input type="email" id="pesquisa_email" placeholder="e-mail"> </p>
+          <p>Email:<input type="email" id="pesquisa_email" placeholder="e-mail profissional"> </p>
         </div>
         
          <div style="width: 50%">

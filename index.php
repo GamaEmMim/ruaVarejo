@@ -43,6 +43,21 @@
 
             <div class="media">
               <div class="media-left">
+                <a href="/operacao-carne-fraca.php">
+                <img class="media-object" src="/images/carne-fraca.jpg" width="150px" height="150px">
+                </a>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">
+                  <a href="/operacao-carne-fraca.php"><b>Operação Carne Fraca</b></a>
+                </h3>
+                <p align="justify">Na última sexta-feira foi deflagrada a maior operação da história da Polícia Federal. A operação investiga empresas do setor alimentício envolvidas em um esquema de corrupção que liberava a comercialização de alimentos produzidos por frigoríficos sem a devida fiscalização sanitária.</p>
+                <a href="/operacao-carne-fraca.php">CONTINUE LENDO...</a>
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
                 <a href="/pesquisa-de-precos-no-varejo.php">
                 <img class="media-object" src="/images/pesquisa-de-preco.png" width="150px" height="150px">
                 </a>
@@ -86,7 +101,7 @@
                   </a>
                 </h3>
                 <p align="justify">Atualmente as decisões de compra da maioria dos consumidores dependem fortemente do ambiente em que a venda acontece, por isso, faz sentido que os varejistas estejam procurando maneiras mais inovadoras de envolver os clientes em todos os pontos de contato, tanto online quanto na loja física.</p>
-                <a href="">CONTINUE LENDO...</a>
+                <a href="/a-chave-do-sucesso-no-varejo-online-e-offline.php">CONTINUE LENDO...</a>
               </div>
             </div>
 

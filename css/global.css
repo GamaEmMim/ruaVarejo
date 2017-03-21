@@ -33,6 +33,10 @@ body{
 .pageTitle{
 }
 
+.noBold{
+	font-weight: normal;
+}
+
 h1{
 	font-family: LatoRegular;
 }

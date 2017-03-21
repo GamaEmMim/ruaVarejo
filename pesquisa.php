@@ -68,7 +68,7 @@
           <input type="radio" name="informacao4" value="4"> 
           <label for="4">4</label> 
           <input type="radio" name="informacao5" value="5"> 
-          <label for="5">5</label> 
+          <label for="5">5</label> <br>
         </div> 
         
         	<div>
@@ -78,6 +78,53 @@
         	<input type="checkbox" name="opcao3" value="2"> Não tem nada a ver com giro de estoque
         	  
 	 		 </div>
+      
+      <label title="dados"/></label>    
+         <div class="radioButtonOptions" value="">
+         Sobre a metodologia tradicional de obtenção de dados em precificação, quão confiáveis são estas informações?<br>
+          <input type="radio" name="dados1" value="1"> 
+          <label for="1">Muito confiáveis</label><br>
+          <input type="radio" name="dados2" value="2"> 
+          <label for="2">Confiáveis</label> <br>
+          <input type="radio" name="dados3" value="3"> 
+          <label for="3">Pouco confiáveis</label> <br>
+          <input type="radio" name="dados4" value="4"> 
+          <label for="4">Não sei</label> <br>
+          <input type="radio" name="dados5" value="5"> 
+          <label for="5">Como assim metodologia tradicional? Existe outra?</label> <br>
+        </div> 
+        
+        <div>
+        	Destas empresas de obtenção de dado, quais você conhece ou já ouviu falar?<br>
+        	<input type="checkbox" name="InforPrice" value="0"> InfoPrice<br>
+        	<input type="checkbox" name="Nielsen" value="1"> Nielsen<br>
+        	<input type="checkbox" name="Kantar" value="2"> Kantar World Panel<br>
+       	  <input type="checkbox" name="Outro" value="3"> Outro<br>  
+	 		 </div>
+      
+      <label title="varejo"/></label>    
+         <div class="radioButtonOptions" value="">
+         Qual a sua ligação com varejo?<br>
+          <input type="radio" name="ligacaovarejo1" value="1"> 
+          <label for="1">Trabalho com isso</label><br>
+          <input type="radio" name="ligacaovarejo2" value="2"> 
+          <label for="2">Estudo isso</label> <br>
+          <input type="radio" name="ligacaovarejo3" value="3"> 
+          <label for="3">Só vou ao mercado mesmo</label> <br>
+
+        </div> 
+        
+        <label title="assunto"/></label>    
+         <div class="radioButtonOptions" value="">
+         Independente do seu grau de conhecimento sobre Varejo 2.0, você gostaria de aprender um pouco mais sobre o assunto?<br>
+          <input type="radio" name="sim" value="1"> 
+          <label for="1">Sim</label><br>
+          <input type="radio" name="talvez" value="2"> 
+          <label for="2">Talvez</label> <br>
+          <input type="radio" name="nao" value="3"> 
+          <label for="3">Não</label> <br>
+
+        </div> 
 
       </div>
 

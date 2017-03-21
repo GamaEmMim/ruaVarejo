@@ -71,13 +71,25 @@
          </div>
         <h6>&nbsp;</h6>
 
-
-
-
-
         <hr class="divisor">
 
+        <h6>&nbsp;</h6>
+        
+        <div class="row" style="padding-left: 10%">
+          <div class="col-md-5">
+            <a href="/assets//Omnichannel-Sortimento-RuaVarejo.pdf" target="_blank">
+              <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook5.png">
+            </a>
+          </div>
+
         </div>
+
+
+        <h6>&nbsp;</h6>
+
+        <hr class="divisor">
+        </div>
+
 
         <!--Banner Lateral-->
       <div class="col-md-2">

@@ -27,6 +27,11 @@ body{
 	font-style: normal;
 }
 
+.slogan{
+	font-family: LatoBold;
+	font-style: bold;
+}
+
 h1{
 	font-family: LatoRegular;
 }

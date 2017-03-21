@@ -19,7 +19,7 @@
       <div class="col-md-9" style="padding-left: 10%; padding-right: 3%">
 
         <h6>&nbsp;</h6>
-        <h1>QUER SABER TODAS AS DICAS PARA SE TORNAR UM EXPERT EM VAREJO? BAIXE UM DE NOSSOS E-BOOKS!</h1>
+        <h1 class="chamada">QUER SABER TODAS AS DICAS PARA SE TORNAR UM EXPERT EM VAREJO? BAIXE UM DE NOSSOS E-BOOKS!</h1>
         <h6>&nbsp;</h6>
         <div class="row" style="padding-left: 10%">
           <div class="col-md-5">

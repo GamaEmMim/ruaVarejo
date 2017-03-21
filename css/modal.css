@@ -9,7 +9,7 @@
 }
 
 .economia{
-	width: 49%;
+	width: 100%;
 	margin-top: 1em;
 	color: #FFFFFF;
     background-color: #8d8d8d;
@@ -51,7 +51,7 @@
 }
 
 .radioButtonOptions label{
-	margin-right: 6em;
+	margin-right: 1em;
 }
 
 .contactForm textarea{
@@ -62,7 +62,7 @@
 }
 
 .leadSignUp input[type="submit"]{
-    width: 49%;
+    width: 100%;
 	margin-top: 1em;
 	color: #FFF;
     background-color: #0A99D2;
@@ -86,14 +86,6 @@
 		font-size: 15px;
 	}
 
-	.leadSignUp input[type="submit"]{
-	    width: 40%;
-		margin-top: 1em;
-		color: #FFF;
-	    background-color: #0A99D2;
-	    border-color: #0A99D2;
-	}
-
 	.leadSignUp input[name="name"], input[name="lastName"]{
 		width: 49%;
 	}
@@ -104,14 +96,6 @@
 
 	.radioButtonOptions label{
 		margin-right: 3em;
-	}
-
-	.economia{
-		width: 58%;
-		margin-top: 1em;
-		color: #FFFFFF;
-	    background-color: #8d8d8d;
-	    border-color: #8d8d8d;
 	}
 }
 
@@ -234,5 +218,11 @@
 	
 	.economia{
 		font-size: 7px;
+	}
+}
+
+@media(max-width: 274px){
+	.radioButtonOptions{
+		width: 55%;
 	}
 }

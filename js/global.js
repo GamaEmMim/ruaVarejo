@@ -8,8 +8,11 @@ $(document).ready(function(){
 		event.preventDefault();
 		var target = "#" + $(this).attr("target");
 		$(target).modal('hide');
-   		window.location.href = "/ebooks.php";
 	});
+
+	$(".goToDownload").click(function(event){
+   		window.location.href = "/ebooks.php";
+	})
 
 	$(".signUpButton,.signUpModal").click(function(event){
 		event.preventDefault();

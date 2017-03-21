@@ -1,43 +1,8 @@
-@font-face {
-	font-family: "HelveticaBold";
-	src: url('/fonts/helvetica_bold.ttf');
-	font-stretch: normal;
-}
-
-@font-face {
-	font-family: "LatoLight";
-	src: url('/fonts/Lato-Light.ttf');
-	font-stretch: normal;
-}
-
-@font-face {
-	font-family: "LatoBold";
-	src: url('/fonts/Lato-Bold.ttf');
-	font-stretch: bold;
-}
-
-@font-face {
-	font-family: "LatoRegular";
-	src: url('/fonts/Lato-Regular.ttf');
-	font-stretch: normal;
-}
+@font-face {font-family: "Helvetica"; src: url('/fonts/helvetica_bold.ttf') format('truetype');}
+/*@font-face {font-family: "Helvetica Neue"; src: url('../fonts/HelveticaNeue.ttf') format('truetype');}*/
 
 body{
-	font-family: LatoRegular;
-	font-style: normal;
-}
-
-.slogan{
-	font-family: LatoBold;
-	font-style: bold;
-}
-
-h1{
-	font-family: LatoRegular;
-}
-
-#signUpModal *{
-	font-family: HelveticaBold;
+	font-family: Helvetica;
 }
 
 input[type="button"], input[type="submit"]{
@@ -82,6 +47,8 @@ input[type="text"], input[type="email"]{
 .leadSignUp input[name="email"], input[name="company"]{
 	width: 100%;
 }
+
+
 
 #signUpModal .modal-dialog{
 	background-color: #F5F5F5;
@@ -175,7 +142,10 @@ input[type="text"], input[type="email"]{
 @media screen{
 	.leftMenu{
 		float: right;
+		height: 4em;
 	}
+	
+	
 
 	.middleBanner{
 		background-image: url('/images/background_index.jpg');
@@ -194,11 +164,13 @@ input[type="text"], input[type="email"]{
 
 	.middleBanner .signUpButton{
 		margin-top: 3em;
-		margin-left: 11em;
+		margin-left: 20em;
+		
 	}
 
 	.middleBanner input[type='button']{
 		width: 20em;
+		height: 4em
 	}
 }
 

@@ -3,6 +3,8 @@ $(document).ready(function(){
 		e.preventDefault();
 		var parameters = {};
 		parameters.name = $("#pesquisa_name").val();
+		parameters.lastName = $("#pesquisa_lastname").val();
+		parameters.tipoComercio = $(".ramoEmpresa").attr("value");
 		parameters.email = $("#pesquisa_email").val();
 		parameters.company = $("#pesquisa_empresa").val();
 		parameters.conheceVarejo = ($(".varejo_2_0").attr("value") == 'true');
@@ -13,6 +15,14 @@ $(document).ready(function(){
 		parameters.possuiInteresse = $(".vontadeAprender").attr("value");
 		if (parameters.name == ""){
 			alert("O nome é obrigatório");
+			return;
+		}
+		if (parameters.lastName == ""){
+			alert("O sobrenome é obrigatório");
+			return;
+		}
+		if (parameters.tipoComercio == ""){
+			alert("O tipo de comércio é obrigatório");
 			return;
 		}
 		if (parameters.email == ""){

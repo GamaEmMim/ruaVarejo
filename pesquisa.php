@@ -29,12 +29,25 @@
           <p>Nome:<input type="text" id="pesquisa_name" ></p>
         </div>
 
+        <div style="width: 50%">
+          <p>Sobrenome:<input type="text" id="pesquisa_lastname" ></p>
+        </div>
+
         <div style="width: 50%"> 
           <p>Email:<input type="email" id="pesquisa_email" placeholder="e-mail profissional"> </p>
         </div>
         
          <div style="width: 50%">
           <p>Empresa de atuação:<input type="text" id="pesquisa_empresa"></p>
+        </div>
+
+        <div class="radioButtonOptions ramoEmpresa" value="">
+          <input type="radio" name="tipoComercio" class="radioButtonAction" target="ramoEmpresa" value="VAREJO">
+          <label for="varejo">varejo</label>
+          <input type="radio" name="tipoComercio" class="radioButtonAction" target="ramoEmpresa" value="INDUSTRIA">
+          <label for="industria">indústria</label>
+          <input type="radio" name="tipoComercio" class="radioButtonAction" target="ramoEmpresa" value="OUTRO">
+          <label for="outro">outro</label>
         </div>
 
 <label title="ooo"/></label>

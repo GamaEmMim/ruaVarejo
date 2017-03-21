@@ -80,7 +80,7 @@ $(document).ready(function(){
 
 function sendAjax(parameters){
 	$.ajax({
-		url:'http://localhost:8080/pesquisa',
+		url:'http://api.ruavarejo.com.br/pesquisa',
 		type:"POST",
 		data:JSON.stringify(parameters),
 		contentType:"application/json; charset=utf-8",

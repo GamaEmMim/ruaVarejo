@@ -27,7 +27,7 @@
       <div class="col-md-9" style="padding-left: 10%; padding-right: 3%">
 
         <h6>&nbsp;</h6>
-        <h1>OBRIGADO POR FAZER PARTE DA RUA VAREJO, QUEREMOS TE OFERECER UNS MIMOS E APOSTAMOS QUE VOCE VAI CURTIR!</h1>
+        <h1>Obrigado por fazer parte da rua varejo, queremos te oferecer uns presentes e esperamos que você goste!</h1>
         <h6>&nbsp;</h6>
         
 

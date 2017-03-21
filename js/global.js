@@ -8,11 +8,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		var target = "#" + $(this).attr("target");
 		$(target).modal('hide');
-	});
-
-	$(".goToDownloads").click(function(e){
-   		e.preventDefault();
-   		window.location = "/ebooks.php";
+   		window.location.href = "/ebooks.php";
 	});
 
 	$(".signUpButton,.signUpModal").click(function(event){

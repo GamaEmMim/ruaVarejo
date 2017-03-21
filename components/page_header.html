@@ -1,0 +1,62 @@
+<div class="middleBanner">
+    <div class="col-xs-6">
+      <h1>O SEU GPS NO MERCADO</h1>
+      <h3>Diversas novidades para orientar seu sucesso no Varejo!</h3>
+    </div>
+    <div class="col-xs-6"> 
+      <input type="button" class="btn btn-default signUpButton  "value="INSCREVA-SE!"  ></button>
+    </div>
+</div>
+<!-- Modal -->
+<div id="signUpModal" class="modal fade" data-backdrop="static" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content minHeight30em">
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="formSent" style="display: none;">
+              <h3>Cadastro realizado com sucesso. Obrigado!</h1>
+              <button
+                class="btn btn-default closeModal greenCloseButton goToDownload" target="signUpModal">Ir para Downloads!</button>
+            </div>
+            <span class="mainModal" style="display: inline;">
+              <h1>VOCÊ SABE TUDO SOBRE VAREJO?</h1>
+              <h2>Assine gratuitamente nossa newsletter e receba dicas para melhorar<br/>seu negócio!</h2>
+              <div class="container-fluid" style="min-height: 20em;">
+                <img class="logoPopup" src="/images/logo_popup.png">
+                <div class="col-md-10">
+                  <form class="leadSignUp">
+                    <div>
+                      <input type="text" name="name" id="name" placeholder="nome">
+                      <input type="text" name="lastName" id="lastName" placeholder="sobrenome">
+                    </div>
+                    <div>
+                      <input type="text" name="company" id="company" placeholder="empresa">
+                    </div>
+                    <div>
+                    <div class="radioButtonOptions" value="">
+                      <input type="radio" name="tipoComercio" value="VAREJO">
+                      <label for="varejo">varejo</label>
+                      <input type="radio" name="tipoComercio" value="INDUSTRIA">
+                      <label for="industria">indústria</label>
+                      <input type="radio" name="tipoComercio" value="OUTRO">
+                      <label for="outro">outro</label>
+                    </div>
+                    <div>
+                      <input type="email" name="email" id="email" placeholder="e-mail profissional">
+                    </div>
+                    <div>
+                      <input class="btn btn-default" type="submit" value="ASSINAR!">
+                      <button class="btn btn-default closeModal economia" target="signUpModal">NÃO GOSTO DE ECONOMIA</button>
+                    </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

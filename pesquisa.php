@@ -12,7 +12,7 @@
     <script src="/js/pesquisa.js"></script>
   </head>
 
-  <body>
+  <body style="font-size: 18px">
     <?php require(__DIR__."/components/navigator.html"); ?>
     <?php require(__DIR__."/components/page_header.html");?>
     <div class="successMessage" style="display: none;">
@@ -23,6 +23,10 @@
       <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
         <h1>PESQUISA VAREJO 2.0</h1>
         <h2 style="color:#808080">Esta pesquisa busca entender qual o grau de importância do Varejo 2.0 e como ele está relacionado às diferentes etapas no processo de vendas.</h2>
+
+<h6>&nbsp;</h6>
+<h6>&nbsp;</h6>
+
       <div class="clearfix colelem" id="u12639-32"><!-- content -->
 
         <div style="width: 50%">
@@ -33,19 +37,25 @@
           <p>Email:<input type="email" id="pesquisa_email" placeholder="e-mail profissional"> </p>
         </div>
         
+
          <div style="width: 50%">
           <p>Empresa de atuação:<input type="text" id="pesquisa_empresa"></p>
         </div>
 
-<label title="ooo"/></label>
+
+        <h6>&nbsp;</h6>
+        <h6>&nbsp;</h6>
+
+
         <div class="radioButtonOptions varejo_2_0" value="">
-         <p>Você sabe o que é Varejo 2.0?</p> 
+         <p><b>Você sabe o que é Varejo 2.0?</b></p> 
           <input type="radio" class="radioButtonAction" name="varejo_2_0" target="varejo_2_0" value="true"> 
           <label for="varejosim">Sim</label> 
           <input type="radio" class="radioButtonAction" name="varejo_2_0" target="varejo_2_0" value="false"> 
           <label for="varejonao">Não</label> 
         </div> 
-<label title="concorrencia"/></label>    
+        <h6>&nbsp;</h6>
+   
          <div class="radioButtonOptions importancia_varejo_2_0" value="">
          <p>Para você, qual o grau de importância do varejo 2.0 para análise de concorrência? </p> 
           <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="1"> 
@@ -59,6 +69,7 @@
           <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="5"> 
           <label for="5">5</label> 
         </div> 
+        <h6>&nbsp;</h6>
         
   <label title="informacao"/></label>    
          <div class="radioButtonOptions importanciaRapidez" value="">
@@ -74,6 +85,7 @@
           <input type="radio" id="" class="radioButtonAction" name="importanciaRapidez" target="importanciaRapidez" value="5"> 
           <label for="5">5</label> <br>
         </div> 
+        <h6>&nbsp;</h6>
         
         	<div>
         	Para você, qual a relação dele com o giro de estoque do produto?<br>
@@ -82,7 +94,7 @@
         	<input type="checkbox" id="relacao_naoha" value="2"> Não tem nada a ver com giro de estoque
         	  
 	 		 </div>
-      
+      <h6>&nbsp;</h6>
       <label title="dados"/></label>    
          <div class="radioButtonOptions confiabilidade" value="">
          Sobre a metodologia tradicional de obtenção de dados em precificação, quão confiáveis são estas informações?<br>
@@ -97,7 +109,7 @@
           <input type="radio" id="" class="radioButtonAction" name="confiabilidade" target="confiabilidade" value="DESCONHECE_TOTALMENTE"> 
           <label for="5">Como assim metodologia tradicional? Existe outra?</label> <br>
         </div> 
-        
+        <h6>&nbsp;</h6>
         <div>
         	Destas empresas de obtenção de dado, quais você conhece ou já ouviu falar?<br>
         	<input type="checkbox" class="empresasConhecidas" value="InfoPrice">InfoPrice<br>
@@ -117,7 +129,7 @@
           <label for="3">Só vou ao mercado mesmo</label> <br>
 
         </div> 
-        
+        <h6>&nbsp;</h6>
         <label title="assunto"/></label>    
          <div class="radioButtonOptions vontadeAprender" value="">
          Independente do seu grau de conhecimento sobre Varejo 2.0, você gostaria de aprender um pouco mais sobre o assunto?<br>
@@ -131,9 +143,9 @@
         <div>
           <input type="submit" name="teste">
         </div>
-
+<h6>&nbsp;</h6>
       </div>
-
+<h6>&nbsp;</h6>
       </div>
 
     </form>

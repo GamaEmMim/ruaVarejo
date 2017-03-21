@@ -2,7 +2,17 @@
 /*@font-face {font-family: "Helvetica Neue"; src: url('../fonts/HelveticaNeue.ttf') format('truetype');}*/
 
 body{
-	font-family: Helvetica;
+	font-family: LatoRegular;
+	font-style: normal;
+}
+
+.slogan{
+	font-family: LatoBold;
+	font-style: bold;
+}
+
+h1{
+	font-family: LatoRegular;
 }
 
 input[type="button"], input[type="submit"]{
@@ -101,6 +111,7 @@ input[type="text"], input[type="email"]{
 	height: 8em;
 }
 
+>>>>>>> a9cd71ecbe88d7188134e5ebd01b2d8fb61c3487
 .menuBar{
 	background-color: #F5F5F5;
 	width: 100%;
@@ -129,7 +140,6 @@ input[type="text"], input[type="email"]{
 	width: 50%;
 	height: 20em;
 }
-
 
 .media{
 	width: 70%;

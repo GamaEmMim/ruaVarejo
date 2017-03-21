@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php require(__DIR__."/components/main_headers.php"); ?>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title><?=WEBSITE_TITLE?>Rua Varejo</title>
     <?php require(__DIR__."/components/import.html") ?>

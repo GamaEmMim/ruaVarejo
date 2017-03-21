@@ -1,0 +1,238 @@
+#signUpModal *{
+	font-family: HelveticaBold;
+}
+
+#signUpModal .modal-dialog{
+	background-color: #F5F5F5;
+	border-radius: 0;
+	width:50%;
+}
+
+.economia{
+	width: 49%;
+	margin-top: 1em;
+	color: #FFFFFF;
+    background-color: #8d8d8d;
+    border-color: #8d8d8d;
+}
+
+#signUpModal .modal-content{
+	background-color: #F5F5F5;
+	border-radius: 0;
+	overflow-y: auto;
+}
+
+.minHeight30em{
+	min-height: 30em;
+}
+
+#signUpModal h1{
+	font-size: 2.5em;
+}
+
+#signUpModal h2{
+	font-size: 1.3em;
+}
+
+#signUpModal .modalForm{
+	width: 100%;
+	height: 100%;
+}
+
+#signUpModal .logoPopup{
+	position:absolute;
+	width: 15em;
+	margin-top: 18%;
+	margin-left: 60%;
+}
+
+.radioButtonOptions{
+	width: 100%;
+}
+
+.radioButtonOptions label{
+	margin-right: 6em;
+}
+
+.contactForm textarea{
+	width: 100%;
+	margin-top: 1em;
+	background-color: #DEDEDE;
+	height: 8em;
+}
+
+.leadSignUp input[type="submit"]{
+    width: 49%;
+	margin-top: 1em;
+	color: #FFF;
+    background-color: #0A99D2;
+    border-color: #0A99D2;
+}
+
+.leadSignUp input[name="name"], input[name="lastName"]{
+	width: 49%;
+}
+
+.leadSignUp input[name="email"], input[name="company"]{
+	width: 100%;
+}
+
+@media (max-width: 1095px){
+	#signUpModal h1{
+		font-size: 2em;
+	}
+
+	#signUpModal h2{
+		font-size: 15px;
+	}
+
+	.leadSignUp input[type="submit"]{
+	    width: 40%;
+		margin-top: 1em;
+		color: #FFF;
+	    background-color: #0A99D2;
+	    border-color: #0A99D2;
+	}
+
+	.leadSignUp input[name="name"], input[name="lastName"]{
+		width: 49%;
+	}
+
+	.leadSignUp input[name="email"], input[name="company"]{
+		width: 100%;
+	}
+
+	.radioButtonOptions label{
+		margin-right: 3em;
+	}
+
+	.economia{
+		width: 58%;
+		margin-top: 1em;
+		color: #FFFFFF;
+	    background-color: #8d8d8d;
+	    border-color: #8d8d8d;
+	}
+}
+
+@media (max-width: 915px){
+	.leadSignUp input[type="submit"]{
+	    width: 100%;
+		margin-top: 1em;
+		color: #FFF;
+	    background-color: #0A99D2;
+	    border-color: #0A99D2;
+	}
+
+	#signUpModal h1{
+		font-size: 1.5em;
+	}
+
+	#signUpModal h2{
+		font-size: 13px;
+	}
+
+	.leadSignUp input[name="name"], input[name="lastName"]{
+		width: 49%;
+	}
+
+	.leadSignUp input[name="email"], input[name="company"]{
+		width: 100%;
+	}
+
+	.radioButtonOptions label{
+		margin-right: 3em;
+	}
+
+	.economia{
+		width: 100%;
+		margin-top: 1em;
+		color: #FFFFFF;
+	    background-color: #8d8d8d;
+	    border-color: #8d8d8d;
+	}
+}
+
+@media(max-width: 785px){
+	#signUpModal h2{
+		font-size: 11px;
+	}
+
+	.radioButtonOptions label {
+	    margin-right: 2em;
+	}
+}
+
+@media(max-width: 690px){
+	#signUpModal .modal-dialog{
+		background-color: #F5F5F5;
+		border-radius: 0;
+		width:100%;
+	}
+
+	.leadSignUp input[type="submit"]{
+	    width: 100%;
+		margin-top: 1em;
+		color: #FFF;
+	    background-color: #0A99D2;
+	    border-color: #0A99D2;
+	}
+	
+	.economia{
+		width: 100%;
+		margin-top: 1em;
+		color: #FFFFFF;
+	    background-color: #8d8d8d;
+	    border-color: #8d8d8d;
+	}
+
+	#signUpModal h2 {
+	    font-size: 10px;
+	}
+
+	.leadSignUp input[name="name"]{
+		width: 100%;
+	}
+
+	.leadSignUp input[name="lastName"]{
+		width: 100%;
+	}
+
+	.leadSignUp input[name="email"], input[name="company"]{
+		width: 100%;
+	}
+}
+
+@media(max-width: 365px){
+	.radioButtonOptions label {
+	    margin-right: 1em;
+	}
+}
+
+@media(max-width: 325px){
+	.radioButtonOptions {
+	    width: 40%;
+	}
+}
+
+@media(max-width: 275px){
+	.leadSignUp input[name="name"], input[name="lastName"]{
+		width: 110%;
+	}
+
+	.leadSignUp input[name="lastName"]{
+		width: 110%;
+	}
+
+	.radioButtonOptions{
+		width: 65%;
+	}
+
+	.leadSignUp input[type="submit"]{
+		font-size: 12px;
+	}
+	
+	.economia{
+		font-size: 7px;
+	}
+}

@@ -9,12 +9,16 @@
     <title><?=WEBSITE_TITLE?>Rua Varejo</title>
     <?php require(__DIR__."/components/import.html") ?>
     <link rel="stylesheet" type="text/css" href="/css/posts.css">
+    <script src="/js/pesquisa.js"></script>
   </head>
 
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>
     <?php require(__DIR__."/components/page_header.html");?>
-    <span class="post">
+    <div class="successMessage" style="display: none;">
+        <h3>Pesquisa recebida com sucesso. Muito obrigado pela participação!</h1>
+    </div>
+    <form class="pesquisaForm" style="display: inline;">
       <!--Posts e divulgação de ebook-->
       <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
         <h1>PESQUISA VAREJO 2.0</h1>
@@ -22,114 +26,116 @@
       <div class="clearfix colelem" id="u12639-32"><!-- content -->
 
         <div style="width: 50%">
-          <p>Nome:<input type="text" name="nome"/></p>
+          <p>Nome:<input type="text" id="pesquisa_name" ></p>
         </div>
 
         <div style="width: 50%"> 
-          <p>Email:<input type="email" name="email" id="email" placeholder="e-mail"> </p>
+          <p>Email:<input type="email" id="pesquisa_email" placeholder="e-mail"> </p>
         </div>
         
          <div style="width: 50%">
-          <p>Empresa de atuação:<input type="text" name="empresa"/></p>
+          <p>Empresa de atuação:<input type="text" id="pesquisa_empresa"></p>
         </div>
 
 <label title="ooo"/></label>
-        <div class="radioButtonOptions" value="">
+        <div class="radioButtonOptions varejo_2_0" value="">
          <p>Você sabe o que é Varejo 2.0?</p> 
-          <input type="radio" name="tipoComercio" value="Sim"> 
+          <input type="radio" class="radioButtonAction" name="varejo_2_0" target="varejo_2_0" value="true"> 
           <label for="varejosim">Sim</label> 
-          <input type="radio" name="tipoComercio" value="Nao"> 
+          <input type="radio" class="radioButtonAction" name="varejo_2_0" target="varejo_2_0" value="false"> 
           <label for="varejonao">Não</label> 
         </div> 
 <label title="concorrencia"/></label>    
-         <div class="radioButtonOptions" value="">
+         <div class="radioButtonOptions importancia_varejo_2_0" value="">
          <p>Para você, qual o grau de importância do varejo 2.0 para análise de concorrência? </p> 
-          <input type="radio" name="importancia1" value="1"> 
+          <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="1"> 
           <label for="1">1</label> 
-          <input type="radio" name="importancia2" value="2"> 
+          <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="2"> 
           <label for="2">2</label> 
-          <input type="radio" name="importancia3" value="3"> 
+          <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="3"> 
           <label for="3">3</label> 
-          <input type="radio" name="importancia4" value="4"> 
+          <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="4"> 
           <label for="4">4</label> 
-          <input type="radio" name="importancia5" value="5"> 
+          <input type="radio" id="" class="radioButtonAction" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="5"> 
           <label for="5">5</label> 
         </div> 
         
   <label title="informacao"/></label>    
-         <div class="radioButtonOptions" value="">
+         <div class="radioButtonOptions importanciaRapidez" value="">
          <p>Você acha que a rapidez na obtenção da informação é importante? </p> 
-          <input type="radio" name="informacao1" value="1"> 
+          <input type="radio" id="" class="radioButtonAction" name="importanciaRapidez" target="importanciaRapidez" value="1"> 
           <label for="1">1</label> 
-          <input type="radio" name="informacao2" value="2"> 
+          <input type="radio" id="" class="radioButtonAction" name="importanciaRapidez" target="importanciaRapidez" value="2"> 
           <label for="2">2</label> 
-          <input type="radio" name="informacao3" value="3"> 
+          <input type="radio" id="" class="radioButtonAction" name="importanciaRapidez" target="importanciaRapidez" value="3"> 
           <label for="3">3</label> 
-          <input type="radio" name="informacao4" value="4"> 
+          <input type="radio" id="" class="radioButtonAction" name="importanciaRapidez" target="importanciaRapidez" value="4"> 
           <label for="4">4</label> 
-          <input type="radio" name="informacao5" value="5"> 
+          <input type="radio" id="" class="radioButtonAction" name="importanciaRapidez" target="importanciaRapidez" value="5"> 
           <label for="5">5</label> <br>
         </div> 
         
         	<div>
         	Para você, qual a relação dele com o giro de estoque do produto?<br>
-        	<input type="checkbox" name="opcao1" value="0"> Impacta em como eu enxergo meu estoque e as estratégias relacionadas a ele<br>
-        	<input type="checkbox" name="opcao2" value="1"> Aumenta meu controle sobre o ciclo de vida do produto<br>
-        	<input type="checkbox" name="opcao3" value="2"> Não tem nada a ver com giro de estoque
+        	<input type="checkbox" id="relacao_impacta" value="0"> Impacta em como eu enxergo meu estoque e as estratégias relacionadas a ele<br>
+        	<input type="checkbox" id="relacao_aumenta" value="1"> Aumenta meu controle sobre o ciclo de vida do produto<br>
+        	<input type="checkbox" id="relacao_naoha" value="2"> Não tem nada a ver com giro de estoque
         	  
 	 		 </div>
       
       <label title="dados"/></label>    
-         <div class="radioButtonOptions" value="">
+         <div class="radioButtonOptions confiabilidade" value="">
          Sobre a metodologia tradicional de obtenção de dados em precificação, quão confiáveis são estas informações?<br>
-          <input type="radio" name="dados1" value="1"> 
+          <input type="radio" id="" class="radioButtonAction" name="confiabilidade" target="confiabilidade" value="MUITO_CONFIAVEL"> 
           <label for="1">Muito confiáveis</label><br>
-          <input type="radio" name="dados2" value="2"> 
+          <input type="radio" id="" class="radioButtonAction" name="confiabilidade" target="confiabilidade" value="CONFIAVEL"> 
           <label for="2">Confiáveis</label> <br>
-          <input type="radio" name="dados3" value="3"> 
+          <input type="radio" id="" class="radioButtonAction" name="confiabilidade" target="confiabilidade" value="POUCO_CONFIAVEL"> 
           <label for="3">Pouco confiáveis</label> <br>
-          <input type="radio" name="dados4" value="4"> 
+          <input type="radio" id="" class="radioButtonAction" name="confiabilidade" target="confiabilidade" value="NAO_SEI"> 
           <label for="4">Não sei</label> <br>
-          <input type="radio" name="dados5" value="5"> 
+          <input type="radio" id="" class="radioButtonAction" name="confiabilidade" target="confiabilidade" value="DESCONHECE_TOTALMENTE"> 
           <label for="5">Como assim metodologia tradicional? Existe outra?</label> <br>
         </div> 
         
         <div>
         	Destas empresas de obtenção de dado, quais você conhece ou já ouviu falar?<br>
-        	<input type="checkbox" name="InforPrice" value="0"> InfoPrice<br>
-        	<input type="checkbox" name="Nielsen" value="1"> Nielsen<br>
-        	<input type="checkbox" name="Kantar" value="2"> Kantar World Panel<br>
-       	  <input type="checkbox" name="Outro" value="3"> Outro<br>  
+        	<input type="checkbox" class="empresasConhecidas" value="InfoPrice">InfoPrice<br>
+        	<input type="checkbox" class="empresasConhecidas" value="Nielsen">Nielsen<br>
+        	<input type="checkbox" class="empresasConhecidas" value="Kantar World Panel">Kantar World Panel<br>
+       	  <input type="checkbox" class="empresasConhecidas" value="Outro">Outro<br>  
 	 		 </div>
       
       <label title="varejo"/></label>    
-         <div class="radioButtonOptions" value="">
+         <div class="radioButtonOptions relacaoVarejo" value="">
          Qual a sua ligação com varejo?<br>
-          <input type="radio" name="ligacaovarejo1" value="1"> 
+          <input type="radio" id="" class="radioButtonAction" name="relacaoVarejo" target="relacaoVarejo" value="TRABALHA"> 
           <label for="1">Trabalho com isso</label><br>
-          <input type="radio" name="ligacaovarejo2" value="2"> 
+          <input type="radio" id="" class="radioButtonAction" name="relacaoVarejo" target="relacaoVarejo" value="ESTUDA"> 
           <label for="2">Estudo isso</label> <br>
-          <input type="radio" name="ligacaovarejo3" value="3"> 
+          <input type="radio" id="" class="radioButtonAction" name="relacaoVarejo" target="relacaoVarejo" value="CONSUMIDOR"> 
           <label for="3">Só vou ao mercado mesmo</label> <br>
 
         </div> 
         
         <label title="assunto"/></label>    
-         <div class="radioButtonOptions" value="">
+         <div class="radioButtonOptions vontadeAprender" value="">
          Independente do seu grau de conhecimento sobre Varejo 2.0, você gostaria de aprender um pouco mais sobre o assunto?<br>
-          <input type="radio" name="sim" value="1"> 
+          <input type="radio" id="" class="radioButtonAction" name="vontadeAprender" target="vontadeAprender" value="SIM"> 
           <label for="1">Sim</label><br>
-          <input type="radio" name="talvez" value="2"> 
+          <input type="radio" id="" class="radioButtonAction" name="vontadeAprender" target="vontadeAprender" value="TALVEZ"> 
           <label for="2">Talvez</label> <br>
-          <input type="radio" name="nao" value="3"> 
+          <input type="radio" id="" class="radioButtonAction" name="vontadeAprender" target="vontadeAprender" value="NAO"> 
           <label for="3">Não</label> <br>
-
         </div> 
+        <div>
+          <input type="submit" name="teste">
+        </div>
 
       </div>
 
       </div>
 
-    </span>
+    </form>
   </body>
 </html>/

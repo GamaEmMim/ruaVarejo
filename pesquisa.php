@@ -58,9 +58,12 @@
           <label for="pesquisa_var_nao">Não</label> 
         </div>
 
+        <div class="sectionMarginBottom centralizeText">
+          <i>Para as duas perguntas abaixo, considere 1 como pouco importante e 5 como muito importante</i>
+        </div>
 
         <div class="radioButtonOptions importancia_varejo_2_0 sectionMarginBottom" value="">
-          <p><b>Para você, qual o grau de importância do varejo 2.0 para análise de concorrência?</b></p> 
+          <p><b>Para você, qual o grau de importância do varejo 2.0 para análise de concorrência?</b></p>
           <input type="radio" class="radioButtonAction" id="pesq_imp_var_1" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="1"> 
           <label for="pesq_imp_var_1">1</label> 
           <input type="radio" class="radioButtonAction" id="pesq_imp_var_2" name="importancia_varejo_2_0" target="importancia_varejo_2_0" value="2"> 

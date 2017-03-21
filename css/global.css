@@ -37,6 +37,14 @@ body{
 	font-weight: normal;
 }
 
+.centralizeText{
+	text-align: center;
+}
+
+.justifyText{
+	text-align: justify;
+}
+
 h1{
 	font-family: LatoRegular;
 }

@@ -52,6 +52,7 @@
         <hr class="divisor">
 
         <h6>&nbsp;</h6>
+        
         <div class="row" style="padding-left: 10%">
           <div class="col-md-5">
             <a href="/assets/Varejo20-RuaVarejo.pdf" target="_blank">
@@ -59,8 +60,18 @@
             </a>
           </div>
           
-        </div>
+       
+
+          <div class="col-md-5">
+            <a href="/assets/Gestao-Preco-RuaVarejo.pdf" target="_blank">
+              <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook4.png">
+            </a>
+          </div>
+          
+         </div>
         <h6>&nbsp;</h6>
+
+
 
 
 

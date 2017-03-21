@@ -1,0 +1,21 @@
+.pesquisaForm h2{
+	color: #808080;
+	text-align: justify;
+}
+.pesquisaForm input[type="text"], .pesquisaForm input[type="email"]{
+	width: 98%;
+	line-height: 10px;
+}
+.pesquisaForm #pesquisa_name{
+	width: 48%;
+}
+.pesquisaForm #pesquisa_lastname{
+	width: 49%;
+}
+.sectionMarginBottom{
+	margin-bottom: 2em;
+}
+.enviarPesquisa{
+	width: 50%;
+	margin-left: 25%;
+}

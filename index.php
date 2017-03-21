@@ -24,12 +24,12 @@
         <div class="row" style="padding-left: 10%">
           <div class="col-md-5">
             <a class="signUpModal" href="#">
-              <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook1.png">
+              <img class="img-rounded ebookImage" src="/images/ebook1.png">
             </a>
           </div>
           <div class="col-md-5">
             <a class="signUpModal" href="#">
-              <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook2.png">
+              <img class="img-rounded ebookImage" src="/images/ebook2.png">
             </a>
           </div>
         </div>

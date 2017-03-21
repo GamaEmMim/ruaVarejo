@@ -37,9 +37,6 @@
 
         <hr class="divisor">
 
-
-        <?php require(__DIR__."/components/signup_modal.html"); ?>
-
         <!-- POSTS -->
 
         <div class="container">

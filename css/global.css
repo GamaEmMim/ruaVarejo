@@ -1,8 +1,38 @@
-@font-face {font-family: "Helvetica"; src: url('/fonts/helvetica_bold.ttf') format('truetype');}
-/*@font-face {font-family: "Helvetica Neue"; src: url('../fonts/HelveticaNeue.ttf') format('truetype');}*/
+@font-face {
+	font-family: "HelveticaBold";
+	src: url('/fonts/helvetica_bold.ttf');
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: "LatoLight";
+	src: url('/fonts/Lato-Light.ttf');
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: "LatoBold";
+	src: url('/fonts/Lato-Bold.ttf');
+	font-stretch: bold;
+}
+
+@font-face {
+	font-family: "LatoRegular";
+	src: url('/fonts/Lato-Regular.ttf');
+	font-stretch: normal;
+}
 
 body{
-	font-family: Helvetica;
+	font-family: LatoRegular;
+	font-style: normal;
+}
+
+h1{
+	font-family: LatoRegular;
+}
+
+#signUpModal *{
+	font-family: HelveticaBold;
 }
 
 input[type="button"], input[type="submit"]{

@@ -59,12 +59,12 @@ $(document).ready(function(){
 			success: function(e){
 				$(".formSent").show();
 				$(".mainModal").hide();
-				$(".modal-content").removeClass("minHeight30em");
+				$(".modal-content").removeClass("minHeightBanner");
 			},
 			error: function(e){
 				$(".formSent").show();
 				$(".mainModal").hide();
-				$(".modal-content").removeClass("minHeight30em");
+				$(".modal-content").removeClass("minHeightBanner");
 			}
 		});
 	});

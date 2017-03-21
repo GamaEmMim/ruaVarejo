@@ -8,23 +8,19 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title><?=WEBSITE_TITLE?>Rua Varejo</title>
     <?php require(__DIR__."/components/import.html") ?>
-    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    <link rel="stylesheet" type="text/css" href="/css/posts.css">
   </head>
 
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>
     <?php require(__DIR__."/components/page_header.html");?>
-
+    <span class="post">
       <!--Posts e divulgação de ebook-->
       <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
         <h1>PESQUISA DE PREÇOS NO VAREJO – COMO FAZER E O QUE NÃO FAZER</h1>
         <h2 style="color:#808080">Como as novas tecnologias de coleta de dados podem te ajudar com essa árdua tarefa</h2>
-        
-
       <div class="clearfix colelem" id="u12639-32"><!-- content -->
        <h3><p align="justify">Se você tem perdido vendas para o seu concorrente e recebido várias reclamações de clientes usuais sobre os seus preços, talvez você encontre neste post a solução para seus problemas.</p></h3>
-       <h6>&nbsp;</h6>
-
        <h3><p align="justify">Com o acirramento da crise econômica do Brasil e o aumento exponencial do preço de alguns produtos, a pesquisa de preços nos concorrentes e o estabelecimento de uma política de preços com exatidão se tornou fundamental para a sobrevivência no ramo do varejo alimentar. A excelência nessas duas atividades pode aumentar a sua conversão final de vendas e por consequência trazer uma maior rentabilidade para o seu negócio.</p></h3>
        <h6>&nbsp;</h6>
 
@@ -50,6 +46,7 @@
        <a href="https://www.linkedin.com/company/16219656" target="_blank"> Linkedin </a>,  
        <a href="http://www.facebook.com/ruavarejo" target="_blank"> Facebook </a> e verifique nossos outros posts...</p></h2>
        <h6>&nbsp;</h6>
+    </span>
 
        
        

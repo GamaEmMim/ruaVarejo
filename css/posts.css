@@ -1,0 +1,14 @@
+.post h1{
+	font-family: LatoBold;
+	font-size: 2em;
+}
+
+.post h2{
+	font-family: LatoRegular;
+	font-size: 1.5em;
+}
+
+.post h3{
+	font-family: LatoLight;
+	font-size: 1.7em;
+}

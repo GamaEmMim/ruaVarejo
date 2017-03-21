@@ -69,10 +69,13 @@
 
         <div class="row">
           <div class="col-md-5">
-            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/blank_ebook.jpg">
+           <a class="signUpModal" href="#">
+            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook1.png"></a>
           </div>
           <div class="col-md-5">
-            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/blank_ebook.jpg">
+           <a class="signUpModal" href="#">
+            <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook4.png">
+            </a>
           </div>
         </div>
       </div>
@@ -80,7 +83,9 @@
       <!--Banner Lateral-->
       <div class="col-md-2">
         <div class="row">
+         <a class="signUpModal" href="#">
           <img src="/images/banner.jpg">
+          </a>
         </div>
       </div>
     </div>

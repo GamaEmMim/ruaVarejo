@@ -18,7 +18,7 @@
       <!--Posts e divulgação de ebook-->
       <div class="col-md-9" style="padding-top: 5%; padding-right:10%; padding-left: 10%; padding-bottom: 5%">
        <span class="post">
-        <h1 style="color:#FF0000">Omnichannel e Sortimento: como conciliar esses 2 desafios?</h1>
+        <h1>Omnichannel e Sortimento: como conciliar esses 2 desafios?</h1>
         <h2 style="color:#808080">Se fazer o sortimento de um canal já era difícil...</h2>
         
 
@@ -46,7 +46,7 @@ de forma uniforme e constante.</p></h3>
         <h3><p align="justify">E aí surge um novo desafio: como conciliar o sortimento de forma que o consumidor encontre os produtos que quer em todos os canais da mesma marca/empresa?</p></h3>
         <h6>&nbsp;</h6>
 
-        <h3 style="color:#FF0000"><p align="justify">Veja os maiores desafios, conhecer um case genial e ainda um roteiro para
+        <h3><p align="justify">Veja os maiores desafios, conhecer um case genial e ainda um roteiro para
 
 montar um planejamento perfeito no nosso E-book!</p></h3>
         

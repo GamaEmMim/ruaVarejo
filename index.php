@@ -72,6 +72,23 @@
               </div>
             </div>
 
+
+
+            <div class="media">
+            <div class="media-left">
+              <a href="/varejo-2-0.php">
+                <img class="media-object" src="/images/ebook3.png" width="150px" height="150px">
+              </a>              
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">
+                <a href="/varejo-2-0.php"><b>Varejo 2.0</b></a>
+              </h3>
+              <p align="justify">Com a internet e sua facilidade ao acesso de diferentes informações, o perfil do consumidor mudou. Agora, ele procura comparações sobre os produtos que quer e, a um clique de distância, possui a informação que desejar: de características técnicas do produto ao local com o melhor preço.</p>
+             <a href="/varejo-2-0.php">CONTINUE LENDO...</a>
+            </div>
+          </div>
+
             <div class="media">
               <div class="media-left">
                 <a href="/pesquisa-de-precos-no-varejo.php">

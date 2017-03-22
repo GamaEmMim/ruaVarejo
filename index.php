@@ -41,6 +41,21 @@
 
         <div class="container">
 
+        <div class="media">
+            <div class="media-left">
+              <a href="/omni-channel-o-que-e.php">
+                <img class="media-object" src="/images/ebook6.jpeg" width="150px" height="150px">
+              </a>              
+            </div>
+            <div class="media-body">
+              <h3 class="media-heading">
+                <a href="/sortimento.php"><b>Omnichannel e Sortimento: como conciliar esses 2 desafios?</b></a>
+              </h3>
+              <p align="justify">Nos últimos anos o processo de planejamento no varejo cresceu e se tornou ainda mais complexo. Planejadores de sortimento precisam considerar marcas, produtos, cores e tamanhos preferidos por consumidores; ao mesmo tempo eles precisam controlar as vendas online e nas lojas físicas. Essas complexidades foram ampliadas enquanto os varejistas crescem online e abrem novas lojas.</p>
+             <a href="/sortimento.php">CONTINUE LENDO...</a>
+            </div>
+          </div>
+
           <div class="media">
             <div class="media-left">
               <a href="/omni-channel-o-que-e.php">
@@ -58,20 +73,7 @@
           
           
           
-          <div class="media">
-            <div class="media-left">
-              <a href="/omni-channel-o-que-e.php">
-                <img class="media-object" src="/images/ebook6.jpeg" width="150px" height="150px">
-              </a>              
-            </div>
-            <div class="media-body">
-              <h3 class="media-heading">
-                <a href="/sortimento.php"><b>Omnichannel e Sortimento: como conciliar esses 2 desafios?</b></a>
-              </h3>
-              <p align="justify">Nos últimos anos o processo de planejamento no varejo cresceu e se tornou ainda mais complexo. Planejadores de sortimento precisam considerar marcas, produtos, cores e tamanhos preferidos por consumidores; ao mesmo tempo eles precisam controlar as vendas online e nas lojas físicas. Essas complexidades foram ampliadas enquanto os varejistas crescem online e abrem novas lojas.</p>
-             <a href="/sortimento.php">CONTINUE LENDO...</a>
-            </div>
-          </div>
+          
 
 
             <div class="media">

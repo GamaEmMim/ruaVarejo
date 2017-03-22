@@ -12,7 +12,7 @@
   <script src="/js/pesquisa.js"></script>
 </head>
 
-<body style="font-size: 18px">
+<body>
   <?php require(__DIR__."/components/navigator.html"); ?>
   <?php require(__DIR__."/components/page_header.html");?>
   <div class="container">

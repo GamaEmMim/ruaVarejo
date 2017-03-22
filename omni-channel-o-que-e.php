@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-5">
              <a class="signUpModal" href="#">
-              <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook6.jpeg">
+              <img class="img-rounded" style="width: 100%; height: 300px" src="/images/ebook5.png">
               </a>
             </div>
           </div>

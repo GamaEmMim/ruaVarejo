@@ -1,15 +1,19 @@
-#email{
+#contact_page_email{
 	width: 100%;
 }
 
-#name{
+#contact_page_name{
 	width: 30%;
 }
 
-#lastName{
+#contact_page_lastName{
 	width: 69%;
 }
 
-#company{
+#contact_page_company{
+	width: 100%;
+}
+
+.submitButton{
 	width: 100%;
 }

@@ -2,11 +2,11 @@ $(document).ready(function(){
 	$(".contactForm").submit(function(event){
 		event.preventDefault();
 		var parameters = {};
-		parameters.name = $("#name").val();
-		parameters.lastName = $("#lastName").val();
-		parameters.company = $("#company").val();
-		parameters.email = $("#email").val();
-		parameters.message = $("#message").val();
+		parameters.name = $("#contact_page_name").val();
+		parameters.lastName = $("#contact_page_lastName").val();
+		parameters.company = $("#contact_page_company").val();
+		parameters.email = $("#contact_page_email").val();
+		parameters.message = $("#contact_page_message").val();
 		if (parameters.name == ""){
 			alert("O nome é obrigatório");
 			$("#name").focus();
@@ -35,9 +35,8 @@ $(document).ready(function(){
 			contentType:"application/json; charset=utf-8",
 			dataType:"json",
 			success: function(data){
-				console.log("---");
-				console.log(data);
-				console.log("---");
+				$(".successMessage").show();
+				$(".contactFormDiv").hide();
 			}
 		});
 	});

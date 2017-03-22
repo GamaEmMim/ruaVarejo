@@ -15,27 +15,32 @@
     <?php require(__DIR__."/components/navigator.html"); ?>
     <?php require(__DIR__."/components/page_header.html"); ?>
     <div class="container">
-      <div class="col-md-9">
-        <h1>CONTATO</h1>
-        <h4>Entre em contato conosco caso haja alguma dúvida!</h4>
-        <div class="col-md-8">
-          <form class="contactForm">
-              <div>
-                <input type="text" name="name" id="name" placeholder="nome"/>
-                <input type="text" name="lastName" id="lastName" placeholder="sobrenome"/>
-              </div>
-              <div>
-                <input type="text" name="company" id="company" placeholder="empresa">
-              </div>
-              <div>
-                <input type="email" name="email" id="email" placeholder="email profissional">
-              </div>
-              <div>
-                <textarea name="message" id="message" placeholder="mensagem"></textarea>
-              </div>
-              <input type="submit" class="btn btn-default signUpButton" value="Enviar!">
-            </form>
+      <div class="col-md-9" >
+        <div class="successMessage" style="display: none;">
+          <h1>Mensagem recebida com sucesso. Obrigado!</h1>
         </div>
+        <span class="contactFormDiv">
+          <h1>CONTATO</h1>
+          <h4>Entre em contato conosco caso haja alguma dúvida!</h4>
+          <div class="col-md-8">
+            <form class="contactForm">
+                <div>
+                  <input type="text" name="name" id="contact_page_name" placeholder="nome"/>
+                  <input type="text" name="lastName" id="contact_page_lastName" placeholder="sobrenome"/>
+                </div>
+                <div>
+                  <input type="text" name="company" id="contact_page_company" placeholder="empresa">
+                </div>
+                <div>
+                  <input type="email" name="email" id="contact_page_email" placeholder="email profissional">
+                </div>
+                <div>
+                  <textarea name="message" id="contact_page_message" placeholder="mensagem"></textarea>
+                </div>
+                <input type="submit" class="btn btn-default submitButton" value="Enviar!">
+              </form>
+          </div>
+        </span>
       
       </div>
       <div class="col-md-2">

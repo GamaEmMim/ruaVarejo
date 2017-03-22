@@ -157,7 +157,7 @@ input[type="text"], input[type="email"]{
 }
 
 @media (max-width: 1095px){
-	.middleBanner .signUpButton {
+	/*.middleBanner .signUpButton {
 	        margin-top: 3em;
     		margin-left: 13em;
 	}
@@ -180,7 +180,7 @@ input[type="text"], input[type="email"]{
 
 	.navbar-nav{
 		margin-top: 1em;
-	}
+	}*/
 }
 
 @media (max-width: 915px){
@@ -188,8 +188,13 @@ input[type="text"], input[type="email"]{
 		float: right;
 	}
 
-	.navbar{
+	.navbar > .navbar-header{
 		height: 10px;
+	}
+
+	.navbar > .navbar-collapse{
+		margin-top: 4em;
+		height: 8em;
 	}
 
 	.navbar-nav {

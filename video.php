@@ -19,7 +19,7 @@
       <div class="signUpRequired">
         <h3>Este vídeo é exclusivo para usuários cadastrados. Clique <a class="signUpBeforeVideo" href="#">aqui</a> para se cadastrar <b class="highlightedText">gratuitamente</b>!</h1>
       </div>
-      <div class="youtubeFrame"><iframe src="https://www.youtube.com/embed/0E00Zuayv9Q?ecver=2" allowfullscreen></iframe></div>
+      <div class="youtubeFrame"><iframe src="https://www.youtube.com/embed/JD8yzeV2GK4?ecver=2" allowfullscreen></iframe></div>
     </div>
   </body>
 </html>

@@ -4,20 +4,19 @@ $(document).ready(function(){
 		window.sessionStorage.bannerAlreadyShown = true;
 		$('#signUpModal').modal('show');
 	}
-	$(".closeModal").click(function(event){
-		event.preventDefault();
-		var target = "#" + $(this).attr("target");
-		$(target).modal('hide');
-	});
-
-	$(".goToDownload").click(function(event){
-   		window.location.href = "/ebooks.php";
-	})
+	
+	global_defaultModalCloseButton();
 
 	$(".signUpButton,.signUpModal").click(function(event){
 		event.preventDefault();
 		$("#signUpModal").modal('show');
 	});
+
+	$("#signUpModal").on('hide.bs.modal', function(){
+		$(".customCloseEvent").off();
+		global_defaultModalCloseButton();
+	});
+
 	$(".leadSignUp input[name='tipoComercio']").click(function(e){
 		$(".radioButtonOptions").attr("value", $(this).attr("value"));
 	});
@@ -62,11 +61,13 @@ $(document).ready(function(){
 			contentType:"application/json; charset=utf-8",
 			dataType:"json",
 			success: function(e){
+				window.sessionStorage.signedUp = true;
 				$(".formSent").show();
 				$(".mainModal").hide();
 				$(".modal-content").removeClass("minHeightBanner");
 			},
 			error: function(e){
+				window.sessionStorage.signedUp = true;
 				$(".formSent").show();
 				$(".mainModal").hide();
 				$(".modal-content").removeClass("minHeightBanner");
@@ -74,3 +75,31 @@ $(document).ready(function(){
 		});
 	});
 });
+function global_customRequestSignUpModal(afterRequestFunction, beforeRequestFunction){
+	if (beforeRequestFunction !== undefined){
+		beforeRequestFunction();
+	}
+	if (afterRequestFunction !== undefined){
+		$(".customCloseEvent").off();
+		$(".customCloseEvent").click(function(e){
+			e.preventDefault();
+			afterRequestFunction();
+			$('#signUpModal').modal('hide');
+			global_defaultModalCloseButton();
+		});
+		$('#signUpModal').modal('show');
+	}
+}
+function global_defaultModalCloseButton(){
+	$(".closeModal").click(function(event){
+		event.preventDefault();
+		var target = "#" + $(this).attr("target");
+		$(target).modal('hide');
+	});
+
+	$(".goToDownload").click(function(event){
+   		window.location.href = "/ebooks.php";
+	});
+
+	$(".customCloseEvent").html("Ir para Downloads!");
+}

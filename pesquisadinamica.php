@@ -5,34 +5,47 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free Web tutorials">
+    <meta name="description" content="Tudo sobre varejo!">
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Rua Varejo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="http://www.ruavarejo.com.br/assets/64x64.jpg" />
+
+    <meta property="og:url"           content="http://www.ruavarejo.com.br/pesquisadinamica.php" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Rua Varejo - O quanto você sabe de varejo?" />
 </head>
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?=WEBSITE_TITLE?>Varejista</title>
+    <title><?=WEBSITE_TITLE?>Pesquisa</title>
     <?php require(__DIR__."/components/import.html") ?>
     <link rel="stylesheet" type="text/css" href="/css/pesquisadinamica.css">
     <script src="/js/pesquisadinamica.js"></script>
   </head>
 
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=1031964476931276";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>
     <?php require(__DIR__."/components/page_header.html");?>
     <div class="answer">
-      
+      <div>
+        <h1>Você acertou @acertos@ de @total@ perguntas!</h1>
+      </div>
+      <div class="socialButtons">
+        <a class="btn btn-block btn-social btn-facebook socialButtonSettings" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ruavarejo.com.br%2Fpesquisadinamica.php" target="_blank">
+        <span class="fa fa-facebook"></span>
+          Compartilhe!
+        </a>
+      </div>
+
     </div>
 
     <div class="content">

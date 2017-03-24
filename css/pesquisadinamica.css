@@ -6,3 +6,13 @@
 .answer{
 	display: none;
 }
+
+.socialButtonSettings{
+	width: 10em;
+	margin-left: 42%;
+}
+
+.socialButtons{
+	text-align: center;
+	width: 100%;
+}

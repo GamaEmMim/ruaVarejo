@@ -35,7 +35,7 @@ function loadResult(){
 		}
 		console.log("--------");
 	});
-	$(".answer").html("Você acertou " + total + " de 5 perguntas!");
+	$(".answer").html("<h1>Você acertou " + total + " de 5 perguntas!</h1>");
 	$(".answer").show();
 	$(".content").hide();
 	console.log(total);

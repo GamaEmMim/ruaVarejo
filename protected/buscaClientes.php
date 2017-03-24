@@ -7,6 +7,8 @@
 	$customerList = file_get_contents("http://api.ruavarejo.com.br/cliente/09c63ba3efce13d2f9b586c2075db138");
 	$customerList = json_decode($customerList);
 	$total = count($customerList);
+	$b2bSize = 0;
+	$b2cSize = 0;
 ?>
 
 <table style="width: 90%;">
@@ -23,6 +25,15 @@
 	</tr>
 	<?php
 		foreach ($customerList as $aux) {
+			switch($aux->tipoCliente){
+				case "B2B":
+					$b2bSize++;
+				break;
+				case "B2C":
+					$b2cSize++;
+				break;
+			}
+
 	?>
 	<tr>
 		<td><?=$aux->id; ?></td>
@@ -40,5 +51,11 @@
 	?>
 </table>
 <div>
-	<label>Total de clientes: <?=$total?></label>
+	<label>Total de clientes: <?=$total?></label><br/>
+	<label>Total de leads B2C: <?=$b2bSize?></label><br/>
+	<label>Total de leads B2B: <?=$b2cSize?></label><br/>
+	<?php
+		$totalValue = $b2cSize + ($b2bSize * 2);
+	?>
+	<label>Total de leads (B2C + (B2B*2)): <?=$totalValue?></label>
 </div>

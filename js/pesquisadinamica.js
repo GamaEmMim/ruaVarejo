@@ -7,10 +7,18 @@ $(document).ready(function(e){
 			},
 			function(){
 				$(".customCloseEvent").html("Saber o resultado!");
+				$(".subscribeModelButton").attr("value", "ASSINE E VEJA O RESULTADO!");
 				$(".popupSubtitle").html("Preencha este formulário para ter acesso ao resultado!")
 			}
 		);
 	});
+
+	$(".retry").click(function(e){
+		e.preventDefault();
+		$("input[type='radio']:checked").attr("checked", false);
+		$(".answer").hide();
+		$(".content").show();
+	})
 });
 
 function loadResult(){
@@ -33,9 +41,22 @@ function loadResult(){
 		}
 	});
 	var content = $(".answer").html();
-	content = content.replace(/@acertos@/g, acertos);
-	content = content.replace(/@total@/g, total);
-	$(".answer").html(content);
+	$(".acertos").html(acertos);
+	$(".total").html(total);
+	switch (acertos){
+		case 1: case 2: case 3:
+			$(".emotion").html(" :(");
+			$(".responseStatus").attr("src", "");
+		break;
+		case 4:
+			$(".emotion").html("!");
+			$(".responseStatus").attr("src", "/images/test/grade4.jpg");
+		break;
+		case 5:
+			$(".emotion").html("! Meus parabéns!");
+			$(".responseStatus").attr("src", "/images/test/grade5.jpg");
+		break;
+	}
 	$(".answer").show();
 	$(".content").hide();
 }

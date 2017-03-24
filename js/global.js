@@ -106,6 +106,7 @@ function global_defaultModalCloseButton(){
 	});
 
 	$(".customCloseEvent").html("Ir para Downloads!");
+	$(".subscribeModelButton").attr("value", "ASSINAR!");
 
 	$(".popupTitle").html("VOCÊ SABE TUDO SOBRE VAREJO?");
 	$(".popupSubtitle").html("Assine gratuitamente nossa newsletter e receba dicas para melhorar<br/>seu negócio!");

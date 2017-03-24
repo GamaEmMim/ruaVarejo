@@ -9,10 +9,48 @@
 
 .socialButtonSettings{
 	width: 10em;
-	margin-left: 42%;
+}
+
+.responseImage{
+	text-align: center;
+	margin-top: 1em;
+}
+
+.responseStatus{
+	width: 30em;
 }
 
 .socialButtons{
 	text-align: center;
-	width: 100%;
+}
+
+@media screen{
+	h3{
+		font-size: 1.5em;;
+	}
+	label{
+		font-size: 1em;
+	}
+}
+
+@media (max-width: 545px){
+	h3{
+		font-size: 1em;
+	}
+	label{
+		font-size: 0.7em;
+	}
+}
+
+@media (max-width: 340px){
+	h3{
+		font-size: 0.7em;
+	}
+	label{
+		font-size: 0.5em;
+	}
+
+	.responseStatus{
+		width: 20em;
+	}
 }

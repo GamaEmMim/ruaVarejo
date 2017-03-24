@@ -37,13 +37,17 @@
     <?php require(__DIR__."/components/page_header.html");?>
     <div class="answer">
       <div>
-        <h1>Você acertou @acertos@ de @total@ perguntas!</h1>
+        <h1>Você acertou <span class="acertos"></span> de <span class="total"></span> perguntas<span class="emotion"></span></h1>
+      </div>
+      <div class="responseImage">
+        <img class="responseStatus" src="">
       </div>
       <div class="socialButtons">
-        <a class="btn btn-block btn-social btn-facebook socialButtonSettings" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ruavarejo.com.br%2Fpesquisadinamica.php" target="_blank">
+        <a class="btn btn-social btn-facebook socialButtonSettings" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ruavarejo.com.br%2Fpesquisadinamica.php" target="_blank">
         <span class="fa fa-facebook"></span>
           Compartilhe!
         </a>
+        <a class="btn btn-default retry">Tentar Novamente</a>
       </div>
 
     </div>

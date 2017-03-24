@@ -76,6 +76,10 @@ $(document).ready(function(){
 	});
 });
 function global_customRequestSignUpModal(afterRequestFunction, beforeRequestFunction){
+	if (afterRequestFunction !== undefined && window.sessionStorage.signedUp){
+		afterRequestFunction();
+		return;
+	}
 	if (beforeRequestFunction !== undefined){
 		beforeRequestFunction();
 	}
@@ -102,4 +106,7 @@ function global_defaultModalCloseButton(){
 	});
 
 	$(".customCloseEvent").html("Ir para Downloads!");
+
+	$(".popupTitle").html("VOCÊ SABE TUDO SOBRE VAREJO?");
+	$(".popupSubtitle").html("Assine gratuitamente nossa newsletter e receba dicas para melhorar<br/>seu negócio!");
 }

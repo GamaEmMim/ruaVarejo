@@ -14,19 +14,23 @@
   <body>
     <?php require(__DIR__."/components/navigator.html"); ?>
     <?php require(__DIR__."/components/page_header.html");?>
-    <div>
+    <div class="answer">
+      
+    </div>
+
+    <div class="content">
       <div>
         <h3>1- O que é mais importante numa estratégia de precificação?</h3>
         <div>
-          <input id="din_01_01" type="radio" name="quantidade">
+          <input id="din_01_01" type="radio" value="A" name="din_01">
           <label for="din_01_01">Definir o preço</label>
         </div>
         <div>
-          <input id="din_01_02" type="radio" name="foco">
+          <input id="din_01_02" type="radio" value="B" name="din_01">
           <label for="din_01_02">Definir o objetivo</label>
         </div>
         <div>
-          <input id="din_01_03" type="radio" name="">
+          <input id="din_01_03" type="radio" value="C" name="din_01">
           <label for="din_01_03">Definir o concorrente </label>
         </div>
       </div>
@@ -34,18 +38,17 @@
       <div>
         <h3>2-O que você deve tomar cuidado na definição de preços no varejo offline?</h3>
         <div>
-          <input type="radio" id="din_02_01">
-          <label>subir demais e perder espaço no mercado</label>
+          <input type="radio" value="A" for="din_02" name="din_02" id="din_02_01">
+          <label for="din_02_01">subir demais e perder espaço no mercado</label>
         </div>
         <div>
-          <input type="radio" id="din_02_02">
-          <label>promocionar demais e perder rentabilidade</label>
+          <input type="radio" value="B" for="din_02" name="din_02" id="din_02_02">
+          <label for="din_02_02">promocionar demais e perder rentabilidade</label>
         </div>
         <div>
-          
+          <input type="radio" value="C" for="din_02" name="din_02" id="din_02_03">
+          <label for="din_02_03">as duas alternativas anteriores</label>
         </div>
-        <input type="radio" id="din_02_03">
-        <label>as duas alternativas anteriores</label>
       </div>
 
     <div>
@@ -54,20 +57,20 @@
         </h3>
         
         <div>
-          <input type="radio" class="centralizeText centralizeText highlightedText" id="din_03_4" name="">
-          <label>Sigo o preço sugerido pelo fabricante do produto</label>
+          <input type="radio" value="A" name="din_03" id="din_03_01">
+          <label for="din_03_01">Sigo o preço sugerido pelo fabricante do produto</label>
         </div>
 
         <div>
-          <input type="radio" id="din_03_5" name="">
-          <label>
+          <input type="radio" value="B" name="din_03" id="din_03_02">
+          <label for="din_03_02">
           vejo o preço dos meus concorrentes e estabeleço o meu
           </label>
         </div>
 
         <div>
-          <input type="radio" id="din_03_6" name="">
-          <label>
+          <input type="radio" value="C" name="din_03" id="din_03_03">
+          <label for="din_03_03">
           estabeleço meu preço independentemente do meu concorrente 
           </label>
         </div>
@@ -78,16 +81,16 @@
           4-Qual mecanisco que te leva a alcançar maior lucratividade?
         </h3>
         <div>
-          <input type="radio" id="#vid_name="">
-          <label>promoções</label>
+          <input type="radio" value="A" name="din_04" id="din_04_01">
+          <label for="din_04_01">promoções</label>
         </div>
         <div>
-          <input type="radio" id="#vid_name="">
-          <label>queima de estoque</label>
+          <input type="radio" value="B" name="din_04" id="din_04_02">
+          <label for="din_04_02">queima de estoque</label>
         </div>
         <div>
-          <input type="radio" id="#vid_name="">
-          <label>verificar o preço do meu concorrente para determinar o meu</label>
+          <input type="radio" value="C" name="din_04" id="din_04_03">
+          <label for="din_04_03">verificar o preço do meu concorrente para determinar o meu</label>
         </div>
       </div>
 
@@ -96,20 +99,20 @@
           5-Quais são as principais ações de marketing?
         </h3>
         <div>
-          <input type="radio" name="">
-          <label>Propaganda em Jornais, Revistas e boca-a-boca</label>
+          <input type="radio" value="A" name="din_05" id="din_05_01">
+          <label for="din_05_01">Propaganda em Jornais, Revistas e boca-a-boca</label>
         </div>
         <div>
-          <input type="radio" name="">
-          <label>Panfleto, anúncios em Revista e Promoção</label>
+          <input type="radio" value="B" name="din_05" id="din_05_02">
+          <label for="din_05_02">Panfleto, anúncios em Revista e Promoção</label>
         </div>
         <div>
-          <input type="radio" name="">
-          <label>Depende do seu público e sua estratégia</label>
+          <input type="radio" value="C" name="din_05" id="din_05_03">
+          <label for="din_05_03">Depende do seu público e sua estratégia</label>
         </div>
       </div>
 
-      <input type="submit" class="btn btn-default sendButton" value="Enviar!">
+      <input type="submit" class="btn btn-default sendGameButton" value="Enviar!">
     </div>
   </body>
 </html>

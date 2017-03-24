@@ -1,4 +1,8 @@
-.sendButton{
+.sendGameButton{
 	width: 50%;
 	margin-left: 25%;
+}
+
+.answer{
+	display: none;
 }
